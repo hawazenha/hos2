@@ -447,7 +447,7 @@ footer p {
 body {
     background-color: #ABADB5;
 }
-body.dark-mode {
+.dark-mode body {
     background-color: #0E1D21 important!;
 }
 
