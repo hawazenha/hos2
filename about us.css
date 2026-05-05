@@ -19,13 +19,13 @@ body {
 }
 
 body.dark-mode {
-    background-color: #004d00 !important; 
+    background-color: #004d00 !important;
 }
 
-body.dark-mode .controls-container,
-body.dark-mode section,
-body.dark-mode .home-content,
-body.dark-mode div {
+body.dark-mode div:not(.navbar), 
+body.dark-mode section, 
+body.dark-mode .rating-box, 
+body.dark-mode .home-content {
     background-color: transparent !important;
 }
 .navbar {
@@ -61,6 +61,7 @@ body.dark-mode div {
 .dark-mode .nav-links a {
 
 --pg-color: #0e1d21;
+color:white;
     
 
 }
