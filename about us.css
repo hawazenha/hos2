@@ -19,7 +19,7 @@ body {
 }
 
 body.dark-mode {
-    background-color:  #0e1d21 !important;
+    background-color:  #0E1D21 !important;
 }
 
 body.dark-mode div:not(.navbar), 
