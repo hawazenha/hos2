@@ -447,7 +447,13 @@ footer p {
 body {
     background-color: #ABADB5;
 }
-.dark-mode body {
-    background-color: #0E1D21 important!;
+body.dark-mode {
+    background-color:#0E1D21 !important; 
 }
 
+body.dark-mode .controls-container,
+body.dark-mode section,
+body.dark-mode .home-content,
+body.dark-mode div {
+    background-color: transparent !important;
+}
