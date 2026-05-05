@@ -87,10 +87,7 @@ body {
     color: black;
     transition: 0.5s; 
 }
-body.dark-mood {
-    background-color: #122e34; 
-    color: white;
-}
+
 .dark-mode .navbar{
     background-color: #122e34;
 }
