@@ -448,6 +448,6 @@ body {
     background-color: #ABADB5;
 }
 .dark-mode body {
-    background-color: #0E1D21;
+    background-color: #0E1D21 important!;
 }
 
